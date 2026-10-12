@@ -20,15 +20,16 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/cri.JPG" alt="" /></a>
-					<h1><strong>Cristiano Longarini</strong>,<br />  
+					<a href="index.html" class="image avatar"><img src="images/cri.JPG" alt="Cristiano Longarini" /></a>
+					<h1><strong>Cristiano Longarini</strong>,<br />
 					Postdoctoral associate,<br /> Institute of Astronomy <br />
-					University of Cambridge<br />
-					<h1><a href="index.html" class="logo">Homepage</a></h1>
-					<h1><a href="aboutme.html" class="logo">About me</a></h1>
-					<h1><a href="research.html" class="logo">Research</a></h1>
-					<h1><a href="contactme.html" class="logo">Contact me</a></h1>
-					</h1>
+					University of Cambridge</h1>
+					<nav id="nav">
+						<div><a href="index.html">Homepage</a></div>
+						<div><a href="aboutme.html">About me</a></div>
+						<div><a href="research.html">Research</a></div>
+						<div><a href="contactme.html">Contact me</a></div>
+					</nav>
 				</div>
 			</header>
 
@@ -40,8 +41,8 @@
 						<header class="major">
 							<h1>Research</h1>
 						</header>
-						<p>My main research interest is protoplanetary discs, the environments where planet form. I am interested in understanding the role of self-gravity and gravitational instability
-                            in protoplanetary discs structure, evolution and in the process of planet formation. To do so, I mainly use hydrodynamical simulations and data from the ALMA telescope. 
+						<p>My main research interest is protoplanetary discs, the environments where planets form. I am interested in understanding the role of self-gravity and gravitational instability
+                            in the structure and evolution of protoplanetary discs, and in the process of planet formation. To do so, I mainly use hydrodynamical simulations and data from the ALMA telescope. 
                             Here you find my <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22longarini%2C%20c%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS page</a>.
                         </p>
 						<p>For a broader overview, see our <a href="https://ui.adsabs.harvard.edu/abs/2026FrASS..1311058L/abstract">comprehensive review on gravitational instability in planet-forming discs</a>
@@ -49,26 +50,24 @@
 					</section>
 
                 <!-- Two -->
-					<section id="one">
+					<section id="two">
 						<header class="major">
 							<h2>Projects</h2>
-
-							<h3>Gravitational instability: Infall vs cooling</h3>
 						</header>
+						<h3>Gravitational instability: Infall vs cooling</h3>
 						<p>So far, gravitational instability in protostellar discs has mostly been studied in isolated systems, where cooling regulates its onset. In this classical picture, discs self-adjust to a marginally stable state ($Q \sim 1$), and fragmentation occurs only if cooling is sufficiently rapid.
 							But real young discs are not isolated. They are continuously fed by infall from their surrounding envelopes, as shown in ALMA observations. In this regime, instability may be driven not by cooling, but by mass loading. As material accumulates, surface density increases and angular momentum must be redistributed. 
 							We explore gravitational instability in this externally driven regime, asking a simple but fundamental question:
-							What happens when instability is regulated by infall, rather than cooling? </a>
+							What happens when instability is regulated by infall, rather than cooling?
                         </p>
 						<ul class="actions">
 							<li><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250613701L/abstract" class="button" title="Longarini et al. 2025, MNRAS 541, 1145 &ndash; Infall-driven gravitational instability in accretion discs">Paper 1</a></li>
 						</ul>
 						<h3>Modelling rotation curves of protoplanetary discs: dynamical masses</h3>
-						</header>
 						<p>So far, disc masses have often been estimated from dust continuum emission, assuming a fixed dust-to-gas ratio and optically thin emission. In this classical picture, the disc mass is derived indirectly from its brightness, with uncertainties dominated by opacity, temperature, and chemical assumptions.
 							However, for massive discs, we can instead turn to kinematics.
 							High-resolution ALMA observations reveal systems where the disc’s own gravity can measurably alter the rotation curve. In this regime, the velocity field deviates from purely Keplerian motion: the disc is no longer a passive tracer of the stellar mass, but an active contributor to the gravitational potential.
-							We explore disc masses through their dynamical imprint on rotation curves within the exoALMA sample, combining detailed modelling of gas kinematics with self-consistent gravitational potentials and pressure gradient.</a>.
+							We explore disc masses through their dynamical imprint on rotation curves within the exoALMA sample, combining detailed modelling of gas kinematics with self-consistent gravitational potentials and pressure gradients.
                         </p>
 						<ul class="actions">
 							<li><a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.4481L/abstract" class="button" title="Lodato et al. 2023, MNRAS 518, 4481 &ndash; Dynamical mass measurements of two protoplanetary discs">Paper 1</a></li>
@@ -76,8 +75,7 @@
 							<li><a href="https://ui.adsabs.harvard.edu/abs/2024A%26A...688A.136V/abstract" class="button" title="Veronesi et al. 2024, A&amp;A 688, A136 &ndash; Weighing protoplanetary discs with kinematics">Paper 3</a></li>
 							<li><a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...984L..17L/abstract" class="button" title="Longarini et al. 2025, ApJL 984, L17 &ndash; exoALMA XII. Weighing and sizing exoALMA disks">Paper 4</a></li>
 						</ul>
-                            <h3>Dust dynamics in gravitationally unstable discs</h3>
-						</header>
+						<h3>Dust dynamics in gravitationally unstable discs</h3>
 						<p>Planet formation requires solids to grow from micron-sized grains to kilometre-sized planetesimals, a process hampered by well-known barriers: grains drift rapidly towards the star, and high-velocity collisions lead to fragmentation rather than growth. In young, massive discs, however, gravitational instability changes the picture. Spiral arms act as pressure maxima where dust can be trapped and concentrated, and the self-gravity of the solids themselves can contribute to the instability.
 							We study how gas and dust interact in gravitationally unstable discs, combining an analytical two-fluid theory of the instability with 3D SPH simulations. We find that, under realistic conditions, aerodynamic drag allows dust to strongly concentrate inside spiral arms and possibly collapse into planetary cores, and we characterise how gravito-turbulence regulates dust trapping, collisional velocities and velocity dispersion &ndash; key ingredients for planetesimal formation in young discs.
                         </p>
@@ -87,8 +85,7 @@
 							<li><a href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.551g1564L/abstract" class="button" title="Longarini et al. 2026, MNRAS 551, 1564 &ndash; Dust trapping, collisional velocity and velocity dispersion in gravito-turbulent discs">Paper 3</a></li>
 						</ul>
 
-                        <h3>Kinematic signatures of gravitational instability</h3>
-						</header>
+						<h3>Kinematic signatures of gravitational instability</h3>
 						<p>Spiral structures in protoplanetary discs can be produced by many mechanisms &ndash; embedded planets, stellar flybys, infall &ndash; so morphology alone cannot tell us whether a disc is gravitationally unstable. Kinematics can. Gravitational instability perturbs the gas velocity field in a characteristic way, producing a wiggle in the channel maps that follows the spiral arms: the GI Wiggle.
 							We developed an analytical model of these kinematic perturbations and tested it against hydrodynamical simulations. We then applied it to high-resolution ALMA observations: in Elias 2-27 we measured the angular momentum transport driven by the instability, finding excellent agreement with the stellar accretion rate, and in AB Aurigae the GI Wiggle provided the first kinematic detection of gravitational instability in a planet-forming disc.
                         </p>

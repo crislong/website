@@ -2631,12 +2631,20 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h1 {
+		#header h1, #header nav {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}
+
+		#header nav {
+			font-weight: 400;
+		}
+
+			#header nav a {
+				color: inherit;
+			}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
@@ -3001,7 +3009,7 @@ input, select, textarea {
 				width: 30%;
 			}
 
-				#header h1 {
+				#header h1, #header nav {
 					font-size: 1.25em;
 				}
 
@@ -3065,7 +3073,7 @@ input, select, textarea {
 				display: block;
 			}
 
-				#header h1 {
+				#header h1, #header nav {
 					font-size: 1.75em;
 				}
 
@@ -3160,7 +3168,7 @@ input, select, textarea {
 				padding: 2.25em 1.5em;
 			}
 
-				#header h1 {
+				#header h1, #header nav {
 					font-size: 1.35em;
 				}
 
